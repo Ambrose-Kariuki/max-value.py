@@ -1,8 +1,9 @@
-for num in range(2, 101):
-    is_prime = True
-    for i in range(2, num):
-        if num % i == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print(num, end=' ')    
+a = 2 
+b = 3
+print("before swap")
+print("a =", a)
+print("b =", b)
+a, b = b, a
+print("after swap")
+print ("a =", a)
+print("b =", b)
